@@ -1,6 +1,12 @@
 import React from 'react';
 import './header.css';
 
+/**
+ * Componente Header para exibir o cabeçalho da aplicação.
+ *
+ * @component
+ * @returns {JSX.Element} Retorna o JSX para renderizar o cabeçalho.
+ */
 const Header = () => {
   return (
     <div className="header">
